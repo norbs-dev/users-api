@@ -1,0 +1,14 @@
+{
+  "id": "uuid",
+  "name": "name",
+  "age": 10,
+  "score": 800,
+  "active": "True",
+  "country": "Brazil",
+  "team": {
+    "name": "Green Team",
+    "leader": "False",
+    "projects": [{ "name": "green-list", "completed": "False" }]
+  },
+  "logs": [{ "date": "2024-10-20", "action": "login" }]
+}

@@ -1,0 +1,47 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+# It is generally recommended to include lock files (Pipfile.lock, poetry.lock, pdm.lock)
+# in version control, but you might choose to ignore them in specific cases.
+# Pipfile.lock
+# poetry.lock
+# pdm.lock
+
+# Environment variables
+.env
+*.env
+
+# Database files (if using local development databases like SQLite)
+*.sqlite3
+*.db
+
+# Test coverage output
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
